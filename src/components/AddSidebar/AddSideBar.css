@@ -1,0 +1,29 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 2rem 1rem;
+}
+.sidebar .listing-options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 1rem 0rem;
+}
+.sidebar .sidebar-links
+{
+    display: flex;
+    align-items: center;
+}
+.sidebar .sidebar-links .link{
+    margin:1rem 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.sidebar .sidebar-links .sidebar-icon
+{
+    font-size: 1.5rem;
+}

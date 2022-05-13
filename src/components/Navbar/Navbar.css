@@ -1,0 +1,41 @@
+nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    overflow-x: hidden;
+    margin-left: 1rem;
+}
+.logo-text{
+    font-size: 72px;
+    background: -webkit-linear-gradient(red,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-image{
+    width:20%;
+    display: flex;
+    align-items: center;
+}
+.nav-image h6{
+    font-size: 1.5rem;
+}
+.nav-image img{
+    width: 20%;
+}
+
+.nav-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-links .nav-item{
+    display: flex;
+    align-items: center;
+}
+.nav-links .nav-item .nav-icons{
+    font-size: 1.25rem;
+    margin:0px 0.4rem;
+}

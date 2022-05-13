@@ -1,0 +1,90 @@
+.home-container{
+    display: flex;
+}
+.home-container .home-sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding:1rem 2rem;
+    height: 40vh;
+    gap:2rem;
+    margin-top: 2rem;
+}
+.home-container .home-sidebar h2{
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+.home-container .home-sidebar .filter-form
+{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 1rem 2rem;
+}
+.home-container .home-sidebar .filter-form button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: red;
+    color: #fff;
+}
+.home-container .home-sidebar .filter-form .filter-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.home-container .home-sidebar .filter-form .filter-field label
+{
+    font-weight: 700;
+}
+.home-container .home-sidebar .filter-form .filter-field .filter-select{
+    width:90%;
+    margin-top: 0.75rem;
+    padding:0.5rem;
+    border: none;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+}
+.home-container .all-listings{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 70%;
+}
+.home-container .all-listings h1{
+    font-size: 4rem;
+    font-weight: 300;
+    width: 90%;
+    box-shadow: 1px 4px 6px red;
+    height: 6rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.home-container .all-listings .all-shops{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.home-container .all-listings .all-shops .shop-card{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+}
+.home-container .all-listings .all-shops .shop-card h4{
+    font-size: 2rem;
+}
+.home-container .all-listings .all-shops .shop-card .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-container .all-listings .all-shops .shop-card .info #location{
+    
+}
